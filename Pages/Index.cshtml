@@ -1,0 +1,273 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "SAKURA | Clothing";
+}
+
+<!-- BANNER -->
+<div class="container-fluid banner">
+    <img src="/prj/banner1.png" class="img-responsive" alt="SAKURA Collection" />
+    <a asp-page="/products" class="btn btn-primary btn-lg banner-btn">MUA NGAY</a>
+</div>
+
+<!-- NEW ARRIVAL -->
+<div class="container-fluid New-arrival text-center">
+    <h1>NEW ARRIVAL</h1>
+    <p>Bộ sưu tập mới nhất của SAKURA</p>
+`
+    <div id="myProducts" class="carousel slide text-center" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+
+            <!-- NHÓM SẢN PHẨM 1 -->
+            <div class="item active">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Vietnam Blossom Jacket.png" class="product-img" alt="SAKURA Vietnam Blossom Jacket" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>599.000 VND</h3>
+                                <h5><a href="/Products/box19">SAKURA Vietnam Blossom Jacket</a></h5>
+                            </div>
+                        </div>
+                    </div>      
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Blossom Raglan.png" class="product-img" alt="SAKURA Blossom Raglan" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>720.000 VND</h3>
+                                <h5><a href="/Products/box9">SAKURA Blossom Raglan</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Bloom Raglan LS.png" class="product-img img-responsive" alt="SAKURA Bloom Raglan LS" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>750.000 VND</h3>
+                                <h5><a href="/Products/box4">SAKURA Bloom Raglan LS</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/taydai.png" class="product-img" alt="SAKURA Black Long" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>499.000 VND</h3>
+                                <h5><a href="/Products/box18">SAKURA Black Long</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NHÓM SẢN PHẨM 2 -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Pink Blossom Tee.png" class="product-img" alt="SAKURA Pink Blossom Tee" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>700.000 VND</h3>
+                                <h5><a href="/Products/box15">SAKURA Pink Blossom Tee</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Blossom Jersey.png" class="product-img" alt="SAKURA Blossom Jersey" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>470.000 VND</h3>
+                                <h5><a href="/Products/box2">SAKURA Blossom Jersey</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Essence Shorts.png" class="product-img" alt="SAKURA Essence Shorts" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>450.000 VND</h3>
+                                <h5><a href="/Products/box6">SAKURA Essence Shorts</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Shadow Wide Jeans.png" class="product-img" alt="SAKURA Shadow Wide Jeans" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>670.000 VND</h3>
+                                <h5><a href="/Products/box10">SAKURA Shadow Wide Jeans</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NHÓM SẢN PHẨM 3 -->
+            <div class="item">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Blossom Backpack.png" class="product-img" alt="SAKURA Blossom Backpack" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>650.000 VND</h3>
+                                <h5><a href="/Products/box7">SAKURA Blossom Backpack</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Petal Signature Tee.png" class="product-img" alt="SAKURA Petal Signature Tee" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>450.000 VND</h3>
+                                <h5><a href="/Products/box17">SAKURA Petal Signature Tee</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA VIBE T-Shirt.png" class="product-img" alt="SAKURA VIBE T-Shirt" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>350.000 VND</h3>
+                                <h5><a href="/Products/box16">SAKURA VIBE T-Shirt</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <img src="/prj/SAKURA Floral Elegance Tee.png" class="product-img" alt="SAKURA Floral Elegance Tee" />
+                            </div>
+                            <div class="panel-footer">
+                                <h3>320.000 VND</h3>
+                                <h5><a href="/Products/box21">SAKURA Floral Elegance Tee</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <a class="left carousel-control" href="#myProducts" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a class="right carousel-control" href="#myProducts" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
+<!-- STYLING -->
+<div class="container-fluid Styling text-center">
+    <h1>STYLING</h1>
+
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                    <img src="/prj/style-Sakura Black Bloom.png" class="product-style" alt="Sakura Black Bloom" />
+                </div>
+                <div class="panel-footer">
+                    <h5>Sakura Black Bloom</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                    <img src="/prj/style-b2.png" class="product-style" alt="SAKURA Blossom Raglan" />
+                </div>
+                <div class="panel-footer">
+                    <h5><a href="/Products/box9">SAKURA Blossom Raglan</a></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                    <img src="/prj/style-SAKURA Ivory Bloom.png" class="product-style" alt="SAKURA Ivory Bloom" />
+                </div>
+                <div class="panel-footer">
+                    <h5>SAKURA Ivory Bloom</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                    <img src="/prj/style-Sakura Blossom Sleeve.png" class="product-style" alt="Sakura Blossom Sleeve" />
+                </div>
+                <div class="panel-footer">
+                    <h5>Sakura Blossom Sleeve</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- GIỚI THIỆU -->
+<div class="container-fluid introduction">
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="/prj/shop.png" class="img-responsive about-img" alt="SAKURA Store" />
+        </div>
+
+        <div class="col-sm-6 intro-text">
+            <h4><strong>Introduction</strong></h4>
+
+            <p>
+                SAKURA là thương hiệu thời trang unisex hướng đến phong cách tối giản,
+                hiện đại và tinh tế, lấy cảm hứng từ vẻ đẹp của hoa anh đào - biểu tượng
+                của sự thanh lịch, đổi mới và sức sống. Chúng tôi tin rằng mỗi bộ trang
+                phục không chỉ là quần áo để mặc, mà còn là cách mỗi người thể hiện cá
+                tính và phong cách sống của mình.
+            </p>
+
+            <br />
+
+            <p>
+                Với những thiết kế mang phom dáng boxy hiện đại, chất liệu thoải mái cùng
+                bảng màu nhẹ nhàng, SAKURA tạo nên những sản phẩm dễ phối, phù hợp cho cả
+                nam và nữ trong mọi hoàn cảnh, từ học tập, làm việc đến những buổi dạo phố
+                thường ngày. Mỗi chi tiết đều được chăm chút để mang lại sự cân bằng giữa
+                tính thẩm mỹ, chất lượng và sự tiện dụng.
+            </p>
+        </div>
+    </div>
+</div>

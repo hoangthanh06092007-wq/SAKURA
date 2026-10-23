@@ -1,0 +1,35 @@
+@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "dang ky";
+}
+<div class="register-form">
+        <h2 class="text-center">Đăng ký</h2>
+        <form>
+            <div class="form-group">
+                <label for="text">Họ và Tên</label>
+                <input type="text" class="form-control" id="text" placeholder="Họ và Tên" name="text">
+            </div>
+            <div class="form-group">
+                <label for="text">Số điện thoại</label>
+                <input type="text" class="form-control" id="text" placeholder="Số điện thoại" name="text">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="date">Ngày sinh</label>
+                <input type="date" class="form-control" id="date" placehoder="Ngày sinh" name="date">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Mật khẩu</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Mật Khẩu" name="pwd">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Đăng ký</button>
+            <div class="lo text-center">
+                <p>Bạn đã có tài khoản!<a asp-page = "/login">Đăng nhập tại đây</a></p>
+            </div>
+        </form>
+    </div>

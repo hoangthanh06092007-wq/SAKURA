@@ -1,0 +1,190 @@
+@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Áo sơ mi";
+}
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="filter">
+                    <div class="color">
+                        <h4>
+                            <a href="#color" data-toggle="collapse">Color <span class="caret"></span></a>
+                        </h4>
+                        <div id="color" class="collapse ">
+                            <label><input type="checkbox">Pink</label>
+                            <label><input type="checkbox">White</label>
+                            <label><input type="checkbox">Black</label>
+                            <label><input type="checkbox">Blue</label>
+                            <label><input type="checkbox">Cream</label>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <h4>
+                            <a href="#size" data-toggle="collapse">Size<span class="caret"></span></a>
+                        </h4>
+                        <div id="size" class="collapse ">
+                            <label><input type="checkbox">Onesize</label>
+                            <label><input type="checkbox">Size S</label>
+                            <label><input type="checkbox">Size M</label>
+                            <label><input type="checkbox">Size 1</label>
+                            <label><input type="checkbox">Size 2</label>
+                            <label><input type="checkbox">Size 3</label>
+                            <label><input type="checkbox">Size 4</label>
+                        </div>
+                    </div>
+                    <div class="all-products">
+                        <h4>
+                            <a href="#all-products" data-toggle="collapse">All-products<span class="caret"></span></a>
+                        </h4>
+                        <div id="all-products" class="collapse ">
+                            <label><input type="checkbox">Áo thun</label>
+                            <label><input type="checkbox">Sơ mi</label>
+                            <label><input type="checkbox">Quần</label>
+                            <label><input type="checkbox">Phụ kiện</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="products-content">
+                    <div class="row">
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA Petal Whisper Long Sleeve.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>700.000 VND</h3>
+                                    <h5 class="product-name"><a href="box8.html">SAKURA Petel Whisper Long Sleeve</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA Bloom Crewneck.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>720.000 VND</h3>
+                                    <h5 class="product-name"><a href="box1.html">SAKURA  Bloom Creweck</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA Blossom Jersey.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>̀470.000 VND</h3>
+                                    <h5 class="product-name"><a href="box2.html">SAKURA Blossom Jersey</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA Petal Signature Tee.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>450.000 VND</h3>
+                                    <h5><a href="box17.html">SAKURA Petal Signature Teen</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA Blossom Raglan.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>720.000 VND</h3>
+                                    <h5><a href="box9.html">SAKURA Blossom Ranglan</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/Sakura Blossom Sleeve.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>420.000 VND</h3>
+                                    <h5><a href="box14.html">SAKURA Blossom Sleeve</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA Pink Blossom Tee.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>700.000 VND</h3>
+                                    <h5><a href="box15.html">SAKURA Pink Blossom Tea</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA Bloom Raglan LS.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>750.000 VND</h3>
+                                    <h5 class="product-name"><a href="box4.html">SAKURA Bloom Ranglan LS</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA Floral Elegance Tee.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>320.000 VND</h3>
+                                    <h5 class="product-name"><a href="box21.html">SAKURA Floral Elegance Tee</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/SAKURA VIBE T-Shirt.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>350.000 VND</h3>
+                                    <h5 class="product-name"><a href="box16.html">SAKURA VIBE T-Shirt</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-4 products-item">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-body">
+                                    <img src="prj/taydai.png" class="product-img">
+                                </div>
+                                <div class="panel-footer">
+                                    <h3>499.000 VND</h3>
+                                    <h5><a href="box18.html">SAKURA Black Long</a></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

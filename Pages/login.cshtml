@@ -1,0 +1,28 @@
+@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "dang nhap";
+}
+
+<div class="login-form container-fluid">
+        <h2 class="text-center">Đăng nhập</h2>
+        <form>
+            <div class="form-group">
+                <label for="text">Số điện thoại:</label>
+                <input type="text" class="form-control" id="text" placeholder="Số điện thoại" name="text">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Mật khẩu:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Mật khẩu" name="pwd">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox">Remember</label>
+                <a href="#">Quên thông tin tài khoản</a>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+            <div class="re text-center">
+                <p>Bạn chưa có tài khoản?<a asp-page="/register">Đăng kí ngay</a></p>
+            </div>
+        </form>
+    </div>
